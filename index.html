@@ -16,19 +16,85 @@
 
       <main>
         <article>
-          <h2>Pen: TITLE GOES HERE</h2>
-          <h3>by CREATOR OF PEN</h3>
-          <p>DESCRIBE/REVIEW THE PEN</p>
+          <h2>Pen: Survey Form</h2>
+          <h3>by Alexei Cichon</h3>
+          <p>This pen is a quick little survey I made back in highschool for an assinment, which was to make a quick survey that had multiple selections/answer boxes and drop down menus for selections.</p>
         </article>
-        <section>EMBED PEN IN THIS SECTION</section>
+        <section>prefer <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<form id="survey-form">
+ <h1 id="title"> Survey Form</h1>
+  <p id="description"> Please answer honestly</p>
+<div id="survey-form">
+  <label for="name" id="name-label" class="labels"> Name: </label> 
+    <div class="right">
+      <input type: "text" id="name" placeholder="Enter your name here" class="input" required> 
+    </div>
+  <br> </br>
+  <label for="email" id="email-label" class="labels"> Email: </label>
+  <div class="right">
+    <input type="email" id="email" class="input" required placeholder="Enter your email here">
+  </div>
+  <br> </br>
+  <label for="number" id="number-label" class="labels">  Age: </label>
+<div class="right">
+  <input id="number" class="input-1" min="1" max="60" type="number" placeholder="0">
+</div>
+<br></br> 
+<!-- dropdown -->
+<label for="food" class="labels"> Favorite Food:</label>
+<div class="right">
+  <select id="dropdown" name="food" class="input ">
+    <option disabled value="select"> Select an option </option>
+    <option value="pizza"> Pizza </option>
+    <option value="salad"> Chicken Nuggets </option>
+    <option value="fried-rice"> French Fries </option>
+  </select>
+</div>
+<br> </br>
+
+<!-- radio buttons -->
+<label class="labels" for="radio" > Which do you prefer Waffles or Pancakes? </label>
+<ul class="right" style="list-style: none;">
+  <li class="radio"> <input name="radio-buttons" value="1" type="radio"><label> Waffles</label></input> </li>
+
+  <li class="radio"><input name="radio-buttons" value="2" type="radio"
+ </input><label> Pancakes</label></li>
+</ul>
+
+<!-- checkbox -->
+<label for="sports" class="labels"> What sport(s) do you play/do? (check all that apply)</label>
+<ul id="sports" style="list-style: none" class="right" >
+  <li class="checkbox"><label><input type="checkbox" id="basketball" value="1"> Hockey </label></input></li>
+
+  <li class="checkbox"><label><input type="checkbox" id="soccer" value="2"> Soccer </label></input></li>
+
+  <li class="checkbox"><label><input type="checkbox" id="baseball" value="3"> Baseball/Softball </label></input></li>
+
+  <li class="checkbox"><label><input type="checkbox" id="badminton"value="4"> Basketball </label></input></li>
+
+  <li class="checkbox"><label><input type="checkbox" id="football" value="5"> Football </label></input></li>
+
+  <li class="checkbox"><label><input type="checkbox" id="taekwondo" value="6"> Karate  </label></input></li>
+
+  <li class="checkbox"><label><input type="checkbox" id="tv" value="7"> Watching Sports on TV </label></input></li>
+</ul>
+<div>
+  <textarea id="textarea"> 
+  </textarea>
+  <label class="labels"> How did you feel about this survey?</label>
+<br> </br>
+<button id="submit" type="submit"> Submit </button>
+    </div>
+</form></section>
         <aside>
           <h2>Hello, I'm ...</h2>
-          <p>INTRODUCE YOURSELF</p>
+          <p>Alex</p>
           <p class="bye">I hoped you liked my Pen of the Week.</p>
         </aside>
       </main>
       <footer class="sans-serif">
-        <p>&copy;2020 YOUR NAME</p>
+        <p>&copy;2022 Alex Cichon</p>
         <p>
           Variable font <span class="serif">Fraunces</span> provided by
           <a href="https://github.com/undercasetype/Fraunces"
