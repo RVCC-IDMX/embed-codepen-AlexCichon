@@ -9,6 +9,6 @@
 5. **Carefully copy** the HTML (recommended) code
 6. **Carefully insert** the copied code into the empty **section** element inside the index.html file
 
-### Selected Pen - link to your selected pen
+### Selected Pen - [link to your selected pen](https://codepen.io/Alexcichon08/pen/VwpGLYa)
 
 [**My Pen**](https://codepen.io/Alexcichon08/pen/VwpGLYa)
